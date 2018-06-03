@@ -18,7 +18,7 @@ class App extends Component {
           <div className="App-body">
             <p className="App-intro">
               <h1>Hello everyone</h1>
-              <h2>Welcome to my new personal website !</h2>
+              <h3>Welcome to my new personal website !</h3>
             </p>
             <p>
               I am going to post my interests and the projects that I am
