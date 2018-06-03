@@ -20,7 +20,7 @@ class Footer extends React.Component {
         </Button>
         <Button variant="raised" color="primary">
           LinkedIn{" "}
-        </Button>{" "}
+        </Button>
         <Button variant="raised" color="primary">
           Twitter{" "}
         </Button>
