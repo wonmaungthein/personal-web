@@ -23,9 +23,9 @@ class App extends Component {
               <h2>Welcome to my new personal website !</h2>
             </p>
             <p>
-              I am going to post my interests and projects I am currently
-              working on. So, come along and find out what I have been doing and
-              what we can do together for the better future.
+              I am going to post my interests and the projects that I am
+              currently working on. So, come along and find out what I have been
+              doing and what we can do together for the better future.
             </p>
           </div>
         </section>
