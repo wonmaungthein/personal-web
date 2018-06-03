@@ -1,26 +1,49 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
   height: 80px;
 }
 
+.menu-col,
+.social-media {
+  border: 2px solid rgb(208, 255, 0);
+}
+/* }
 .App-header {
-  background-color: rgb(8, 161, 54);
+  display: grid;
+  grid-template-columns: auto auto auto;
+} */
+
+.App-header,
+.App-footer {
+  background-color: rgb(56, 113, 219);
   height: 50px;
   padding: 15px;
   color: white;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .App-title {
   font-size: 1.5em;
 }
 
+.App-body {
+  font-size: large;
+  color: #10f7f7;
+
+  padding-left: 690px;
+  padding-top: 60px;
+}
+/* 
 .App-intro {
   font-size: large;
-}
+  color: yellow;
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -29,4 +52,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img.bg {
+  /* Set rules to fill background */
+  /* min-height: 100%; */
+  /* min-width: 1024px; */
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  /* position: fixed; */
+  top: 0;
+  left: 0;
 }
