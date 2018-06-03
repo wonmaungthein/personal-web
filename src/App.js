@@ -6,8 +6,6 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
 const sectionStyle = {
-  width: "100%",
-  height: "800px",
   backgroundImage: `url(${bgImg})`
 };
 
@@ -16,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <section style={sectionStyle}>
+        <section style={sectionStyle} className="sectionStyle">
           <div className="App-body">
             <p className="App-intro">
               <h1>Hello everyone</h1>

@@ -2,14 +2,9 @@ import React from "react";
 import "./Menu.css";
 import Button from "@material-ui/core/Button";
 
-const menustyle = {
-  // background: " #0392cf",
-  // display: "grid"
-};
-
 const Menu = () => {
   return (
-    <div className="menustyle" style={menustyle}>
+    <div className="menustyle">
       <ul>
         <Button variant="raised" color="primary">
           About
