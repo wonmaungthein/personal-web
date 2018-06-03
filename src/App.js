@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import bgImg from "./bg5.jpg";
-import Menu from "./Components/Menu";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 
 const sectionStyle = {
   width: "100%",
@@ -14,14 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <h1 className="App-title">Welcome to React</h1> */}
-          <div />
-          <div />
-          <div className="menu-col">
-            <Menu />
-          </div>
-        </header>
+        <Header />
         <section style={sectionStyle}>
           <div className="App-body">
             <p className="App-intro">
@@ -39,11 +33,7 @@ class App extends Component {
           <div />
           <div />
           <div className="social-media">
-            <img src="" alt="facebook-logo" />
-            <img src="" alt="LinkedIn-logo" />
-            <img src="" alt="Twitter-logo" />
-            <img src="" alt="Instagram-logo" />
-            <button>Social Media</button>
+            <Footer />
           </div>
         </footer>
       </div>
