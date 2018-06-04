@@ -15,21 +15,21 @@ class Footer extends React.Component {
           Help
         </FontIcon>
         <FontIcon className="material-icons">help</FontIcon> */}
-        <Button variant="raised" color="primary">
-          Facebook{" "}
-        </Button>
-        <Button variant="raised" color="primary">
-          LinkedIn{" "}
-        </Button>
-        <Button variant="raised" color="primary">
-          Twitter{" "}
-        </Button>
-        <Button variant="raised" color="primary">
-          Instagram{" "}
-        </Button>
-        <Button variant="raised" color="primary">
-          Youtube{" "}
-        </Button>
+        <span variant="raised" color="primary">
+          <i class="fab fa-facebook-square fa-3x" />
+        </span>
+        <span variant="raised" color="primary">
+          <i class="fab fa-linkedin fa-3x" />{" "}
+        </span>
+        <span variant="raised" color="primary">
+          <i class="fab fa-twitter-square fa-3x" />
+        </span>
+        <span variant="raised" color="primary">
+          <i class="fab fa-instagram fa-3x" />{" "}
+        </span>
+        <span variant="raised" color="primary">
+          <i class="fab fa-youtube-square fa-3x" />{" "}
+        </span>
       </div>
     );
   }

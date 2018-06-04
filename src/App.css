@@ -7,13 +7,20 @@
   height: 80px;
 }
 
-.menu-col,
-.social-media {
+.menu-col {
   display: flex;
   justify-content: center;
   align-items: center;
   /* border: 2px solid rgb(208, 255, 0); */
 }
+
+.social-media {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* }
 .App-header {
   display: grid;
