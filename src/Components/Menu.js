@@ -20,11 +20,16 @@ const Menu = () => {
       <Router>
         <div className="container">
           <ul>
-            {/* <Link to="/Home">
+            <Link to="/Home">
               <Button variant="raised" color="primary">
                 Home
               </Button>
-            </Link> */}
+            </Link>
+            <Link to="/Soemthing">
+              <Button variant="raised" color="primary">
+                Soemthing{" "}
+              </Button>
+            </Link>
             <Link to="/Contact">
               <Button variant="raised" color="primary">
                 Contact
@@ -41,10 +46,17 @@ const Menu = () => {
               </Button>
             </Link>
           </ul>
-          {/* <Route path="/Home" component={Home} /> */}
+          <Route path="/" exact={true} component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Portfolio" component={Portfolio} />
+          {/* nested routing below */}
+          <Route
+            path="/Soemthing"
+            render={() => {
+              return <h1>Soemthing</h1>;
+            }}
+          />
         </div>
       </Router>
     </div>
@@ -52,3 +64,16 @@ const Menu = () => {
 };
 
 export default Menu;
+
+/* switch examples below */
+
+// <Switch>
+//   <Route exact path="/" component={Home} />
+//   <Route path="/About" component={About} />
+//   <Route
+//     path="/About/goodmorning"
+//     render={() => {
+//       return <h1>Goodmorning</h1>;
+//     }}
+//   />
+// </Switch>;
