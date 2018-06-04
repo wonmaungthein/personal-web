@@ -4,6 +4,8 @@ import "./App.css";
 import bgImg from "./bg5.jpg";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import { Portfolio } from "./Components/Portfolio";
+// import Home from "./Components/Home";
 
 const sectionStyle = {
   backgroundImage: `url(${bgImg})`
@@ -25,7 +27,7 @@ class App extends Component {
               currently working on. So, come along and find out what I have been
               doing and what we can do together for the better future.
             </p>
-          </div>
+          </div>{" "}
         </section>
         <footer className="App-footer">
           <div />
