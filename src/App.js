@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import bgImg from "./bg5.jpg";
+import bgImg from "./9bg.jpg";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Portfolio } from "./Components/Portfolio";
@@ -26,6 +26,12 @@ class App extends Component {
               I am going to post my interests and the projects that I am
               currently working on. So, come along and find out what I have been
               doing and what we can do together for the better future.
+            </p>
+            <p className="font-color">
+              <em>
+                PS. It's just a begining and I am still working on this. <br />
+                So be patient. :) !!!
+              </em>
             </p>
           </div>{" "}
         </section>

@@ -25,11 +25,6 @@ const Menu = () => {
                 Home
               </Button>
             </Link>
-            <Link to="/Soemthing">
-              <Button variant="raised" color="primary">
-                Soemthing{" "}
-              </Button>
-            </Link>
             <Link to="/Contact">
               <Button variant="raised" color="primary">
                 Contact
@@ -47,16 +42,10 @@ const Menu = () => {
             </Link>
           </ul>
           <Route path="/" exact={true} component={Home} />
-          <Route path="/About" component={About} />
+          {/* <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
-          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Portfolio" component={Portfolio} /> */}
           {/* nested routing below */}
-          <Route
-            path="/Soemthing"
-            render={() => {
-              return <h1>Soemthing</h1>;
-            }}
-          />
         </div>
       </Router>
     </div>
