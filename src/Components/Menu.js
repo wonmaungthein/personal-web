@@ -41,7 +41,7 @@ const Menu = () => {
               {/* </Button> */}
             </Link>
           </ul>
-          <Route path="/" exact={true} component={Home} />
+          {/* <Route path="/" exact={true} component={Home} /> */}
           {/* <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Portfolio" component={Portfolio} /> */}
