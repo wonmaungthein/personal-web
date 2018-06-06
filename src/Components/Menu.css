@@ -1,3 +1,23 @@
 .menustyle {
+  width: 350px;
   background: "blue";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.link {
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  /* border: 2px solid white; */
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }

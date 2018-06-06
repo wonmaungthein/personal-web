@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./Menu.css";
 import Button from "@material-ui/core/Button";
 
@@ -16,29 +16,29 @@ import Home from "./Home";
 
 const Menu = () => {
   return (
-    <div className="menustyle">
+    <Fragment>
       <Router>
-        <div className="container">
+        <div className="container-fluid menustyle">
           <ul>
-            <Link to="/Home">
-              <Button variant="raised" color="primary">
-                Home
-              </Button>
+            <Link to="/Home" className="link">
+              {/* <Button variant="raised" color="primary"> */}
+              Home
+              {/* </Button> */}
             </Link>
-            <Link to="/Contact">
-              <Button variant="raised" color="primary">
-                Contact
-              </Button>
+            <Link to="/Contact" className="link">
+              {/* <Button variant="raised" color="primary"> */}
+              Contact
+              {/* </Button> */}
             </Link>
-            <Link to="/About">
-              <Button variant="raised" color="primary">
-                About
-              </Button>
+            <Link to="/About" className="link">
+              {/* <Button variant="raised" color="primary"> */}
+              About
+              {/* </Button> */}
             </Link>
-            <Link to="/Portfolio">
-              <Button variant="raised" color="primary">
-                Portfolio
-              </Button>
+            <Link to="/Portfolio" className="link">
+              {/* <Button variant="raised" color="primary"> */}
+              Portfolio
+              {/* </Button> */}
             </Link>
           </ul>
           <Route path="/" exact={true} component={Home} />
@@ -48,7 +48,7 @@ const Menu = () => {
           {/* nested routing below */}
         </div>
       </Router>
-    </div>
+    </Fragment>
   );
 };
 
