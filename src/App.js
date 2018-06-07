@@ -50,7 +50,7 @@ class App extends Component {
                     </p>
                     <p className="font-color">
                       <em>
-                        PS. It's just a begining and I am still working on this.{" "}
+                        PS. It's just a begining and will update bit by bit.{" "}
                         <br />
                         So be patient. :) !!!
                       </em>
