@@ -1,10 +1,13 @@
 .menustyle {
-  width: 350px;
+  width: 650px;
+  /* width: auto; */
+
   background: "blue";
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  /* border: 2px solid white; */
 }
 
 .link {

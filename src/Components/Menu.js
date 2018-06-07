@@ -20,31 +20,52 @@ const Menu = () => {
       <Router>
         <div className="container-fluid menustyle">
           <ul>
-            <Link to="/Home" className="link">
-              {/* <Button variant="raised" color="primary"> */}
+            <Button
+              style={{ fontSize: "13px" }}
+              variant="raised"
+              color="primary"
+            >
               Home
-              {/* </Button> */}
-            </Link>
-            <Link to="/Contact" className="link">
-              {/* <Button variant="raised" color="primary"> */}
+            </Button>
+            <a href="https://reverent-raman-6dc065.netlify.com/#first-section">
+              <Button
+                style={{ fontSize: "13px" }}
+                variant="raised"
+                color="primary"
+              >
+                About
+              </Button>
+            </a>
+            <a href="https://reverent-raman-6dc065.netlify.com/">
+              <Button
+                style={{ fontSize: "13px" }}
+                variant="raised"
+                color="primary"
+              >
+                Portfolio
+              </Button>
+            </a>
+            <Button
+              style={{ fontSize: "13px" }}
+              variant="raised"
+              color="primary"
+            >
               Contact
-              {/* </Button> */}
-            </Link>
-            <Link to="/About" className="link">
-              {/* <Button variant="raised" color="primary"> */}
-              About
-              {/* </Button> */}
-            </Link>
-            <Link to="/Portfolio" className="link">
-              {/* <Button variant="raised" color="primary"> */}
-              Portfolio
-              {/* </Button> */}
-            </Link>
+            </Button>
+            <a href="https://reverent-raman-6dc065.netlify.com/#fifth-section">
+              <Button
+                style={{ fontSize: "13px" }}
+                variant="raised"
+                color="primary"
+              >
+                Projects
+              </Button>
+            </a>
           </ul>
           {/* <Route path="/" exact={true} component={Home} /> */}
           {/* <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
-          <Route path="/Portfolio" component={Portfolio} /> */}
+          {/* <Route path="/Contact" component={Contact} /> */}
+          {/* <Route path="/Portfolio" component={Portfolio} /> */}
           {/* nested routing below */}
         </div>
       </Router>
@@ -66,3 +87,28 @@ export default Menu;
 //     }}
 //   />
 // </Switch>;
+
+// <Link to="/Home" className="link">
+//   {/* <Button variant="raised" color="primary"> */}
+//   Home
+//               {/* </Button> */}
+// </Link>
+//   <Link to="/Contact" className="link">
+//     {/* <Button variant="raised" color="primary"> */}
+//     Contact
+//               {/* </Button> */}
+//   </Link>
+//   <Link to="/About" className="link">
+//     {/* <Button variant="raised" color="primary"> */}
+//     About
+//               {/* </Button> */}
+//   </Link>
+//   <Link to="/Portfolio" className="link">
+//     {/* <Button variant="raised" color="primary"> */}
+//     {/* Portfolio */}
+//     {/* </Button> */}
+//     <a href="https://reverent-raman-6dc065.netlify.com/">
+//       {" "}
+//       Portfolio
+//               </a>
+//   </Link>
