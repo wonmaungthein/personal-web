@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import bgImg from "./9bg.jpg";
+import bgImg from "./bg6.jpg";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Portfolio } from "./Components/Portfolio";
@@ -32,13 +32,15 @@ class App extends Component {
 
                 <div className="row">
                   <div className="col-lg-3 col-md-3 col-sm-3  firstCol" />
-                  <div className="col-lg-3 col-md-3 col-sm-3  secondCol" />
-                  <div className="col-lg-6  col-md-6 col-sm-6 col-xs-12 lastCol">
+                  <div className="col-lg-1 col-md-1 col-sm-2 secondCol" />
+                  <div className="col-lg-8  col-md-8 col-sm-7 col-xs-12 lastCol">
                     <p className="App-intro">
                       <h1>
-                        <strong>Hello everyone</strong>
+                        <strong>Hello !!</strong>
                       </h1>
-                      <h3>Welcome to my new personal website !</h3>
+                      <h3>
+                        <b>Welcome to my personal website !</b>
+                      </h3>
                     </p>
                     <p>
                       I am going to post my interests and the projects that I am
