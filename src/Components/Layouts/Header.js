@@ -1,6 +1,13 @@
 import React, { Component, Fragment } from "react";
 
-import { AppBar, Toolbar, Typography, Button, IconButton } from "material-ui";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Button,
+  IconButton,
+  Grid
+} from "material-ui";
 
 // import Toolbar from "@material-ui/core/Toolbar";
 // import Typography from "@material-ui/core/Typography";
@@ -15,36 +22,46 @@ import MenuIcon from "@material-ui/icons/Menu";
 const style = {
   background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
   borderRadius: 5,
-  border: 0,
+  border: 2,
   color: "white",
-  height: 28,
-  padding: "0 30px",
+  height: 38,
+  padding: "5px 30px",
   boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .30)"
 };
 
 export default Header => (
-  <AppBar position="static">
-    <Toolbar>
-      <IconButton color="inherit" aria-label="Menu">
-        <MenuIcon />
-      </IconButton>
-      <Typography variant="title" color="inherit">
-        Won{" "}
-      </Typography>
-      <Button color="inherit" size="large" style={style}>
-        Home
-      </Button>
-      <Button color="inherit" size="large" style={style}>
-        About
-      </Button>
-      <Button color="inherit" size="large" style={style}>
-        Projects
-      </Button>
-      <Button color="inherit" size="large" style={style}>
-        Contact
-      </Button>{" "}
-    </Toolbar>
-  </AppBar>
+  <Grid container>
+    <AppBar position="static">
+      <Toolbar>
+        <Grid item xs={12} sm lg>
+          <IconButton color="inherit" aria-label="Menu">
+            <MenuIcon />
+          </IconButton>
+        </Grid>
+        <Grid item lg={3}>
+          <Typography variant="title" color="inherit">
+            Won{" "}
+          </Typography>
+        </Grid>
+        <Grid container justify="center">
+          <Grid item xs={12} sm={12} lg={12}>
+            <Button color="inherit" size="large" style={style}>
+              Home
+            </Button>
+            <Button color="inherit" size="large" style={style}>
+              About
+            </Button>
+            <Button color="inherit" size="large" style={style}>
+              Projects
+            </Button>
+            <Button color="inherit" size="large" style={style}>
+              Contact
+            </Button>{" "}
+          </Grid>
+        </Grid>
+      </Toolbar>
+    </AppBar>
+  </Grid>
 );
 
 // import React from 'react';
