@@ -1,13 +1,19 @@
+/* .navbar-default {
+  background-color: #ff8800;
+} */
+/* 
+.navbar,
+.navbar-default {
+  background-image: purple !important; /* override background image gradient w/ flat color */
+/* }  */
+/* 
 .menustyle {
   width: 650px;
-  /* width: auto; */
-
   background: "blue";
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  /* border: 2px solid white; */
 }
 
 .link {
@@ -16,11 +22,10 @@
 }
 
 ul {
-  /* border: 2px solid white; */
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-}
+} */
