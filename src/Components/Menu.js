@@ -44,14 +44,29 @@ const Menu = () => {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
+            <NavItem
+              eventKey={1}
+              href="https://reverent-raman-6dc065.netlify.com/#first-section"
+            >
               Home{" "}
             </NavItem>
             <NavItem eventKey={2} href="#">
               About
             </NavItem>
-            <NavItem eventKey={1} href="#">
+            <NavItem eventKey={3} href="#">
               Contact
+            </NavItem>
+            <NavItem
+              eventKey={4}
+              href="https://reverent-raman-6dc065.netlify.com/"
+            >
+              Portfolio
+            </NavItem>
+            <NavItem
+              eventKey={5}
+              href="https://reverent-raman-6dc065.netlify.com/#fifth-section"
+            >
+              Projects
             </NavItem>
           </Nav>
         </Navbar.Collapse>
