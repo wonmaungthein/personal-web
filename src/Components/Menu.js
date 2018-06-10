@@ -50,12 +50,12 @@ const Menu = () => {
             >
               Home{" "}
             </NavItem>
-            <NavItem eventKey={2} href="#">
+            {/* <NavItem eventKey={2} href="#">
               About
             </NavItem>
             <NavItem eventKey={3} href="#">
               Contact
-            </NavItem>
+            </NavItem> */}
             <NavItem
               eventKey={4}
               href="https://reverent-raman-6dc065.netlify.com/"
