@@ -21,54 +21,51 @@ const sectionStyle = {
 class App extends Component {
   render() {
     return (
-<<<<<<< HEAD
       <Fragment>
         {" "}
         <Header />
         <MainBody />
         <Footer />{" "}
+        <div className="App container-fluid">
+          {/* <div className="container-fluid"> */}
+          <div className="row">
+            <div className="col">
+              <Header />
+            </div>
+          </div>
+
+          <div className="row row2">
+            <div className="col">
+              <section style={sectionStyle} className="sectionStyle">
+                <div className="App-body container-fluid">
+                  <div className="row row1">
+                    <div className="col col-lg-12" />
+                  </div>
+                  <div className="row">
+                    <Main />
+                  </div>
+                  <div className="row row3">
+                    <div className="col col-lg-12"> </div>
+                  </div>
+                </div>{" "}
+              </section>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col">
+              <footer className="App-footer">
+                <div />
+                <div />
+                <div className="social-media">
+                  <Footer />
+                </div>
+              </footer>
+            </div>
+          </div>
+          {/* </div> */}
+        </div>
       </Fragment>
-=======
-      <div className="App container-fluid">
-        {/* <div className="container-fluid"> */}
-        <div className="row">
-          <div className="col">
-            <Header />
-          </div>
-        </div>
-
-        <div className="row row2">
-          <div className="col">
-            <section style={sectionStyle} className="sectionStyle">
-              <div className="App-body container-fluid">
-                <div className="row row1">
-                  <div className="col col-lg-12" />
-                </div>
-                <div className="row">
-                  <Main />
-                </div>
-                <div className="row row3">
-                  <div className="col col-lg-12"> </div>
-                </div>
-              </div>{" "}
-            </section>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col">
-            <footer className="App-footer">
-              <div />
-              <div />
-              <div className="social-media">
-                <Footer />
-              </div>
-            </footer>
-          </div>
-        </div>
-        {/* </div> */}
-      </div>
->>>>>>> 63d99d1cc3615caa892d767d9aa76c390ee52af3
     );
   }
 }
