@@ -1,4 +1,8 @@
-import React, { Component, Fragment } from "react";
+// import React, { Component, Fragment } from "react";
+
+import React, { Component } from "react";
+
+import ResponsiveMenu from "react-responsive-navbar";
 
 import {
   AppBar,
@@ -19,14 +23,26 @@ import MenuIcon from "@material-ui/icons/Menu";
 // import Navbar from "./Navbar";
 // import "./Header.css";
 
-const style = {
+export const style = {
   background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
   borderRadius: 5,
   border: 2,
   color: "white",
   height: 38,
   padding: "5px 30px",
+  margin: 6,
   boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .30)"
+};
+
+export const buttonsBg = {
+  background: "pink",
+  padding: 15,
+  border: "2px solid blue"
+};
+
+const buttonGridstyle = {
+  display: "flex",
+  border: 4
 };
 
 export default Header => (
@@ -43,7 +59,7 @@ export default Header => (
             Won{" "}
           </Typography>
         </Grid>
-        <Grid container justify="center">
+        <Grid container justify="center" style={buttonGridstyle}>
           <Grid item xs={12} sm={12} lg={12}>
             <Button color="inherit" size="large" style={style}>
               Home
@@ -63,6 +79,26 @@ export default Header => (
     </AppBar>
   </Grid>
 );
+
+// Responsive react nav bar below is working =====
+
+// <ResponsiveMenu
+//   menuOpenButton={<div />}
+//   menuCloseButton={<div />}
+//   changeMenuOn="444px"
+//   largeMenuClassName="large-menu-classname"
+//   smallMenuClassName="small-menu-classname"
+//   menu={
+//     <ul style={buttonsBg}>
+//       <Button style={style}> Home</Button>
+//       <Button style={style}> About </Button>
+//       <Button style={style}> Contact</Button>
+//       <Button style={style}> Projects</Button>
+//     </ul>
+//   }
+// />
+
+// Working material ui nav bar example below ===== -----
 
 // import React from 'react';
 

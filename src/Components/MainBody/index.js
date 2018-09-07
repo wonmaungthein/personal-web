@@ -4,6 +4,8 @@ import React from "react";
 import { Grid } from "material-ui";
 import LeftPane from "./LeftPane";
 import RightPane from "./RightPane";
+// import { orange100 } from "material-ui/styles/colors";
+// import { blue } from "material-ui/styles/colors";
 
 // const sectionStyle = {
 //   backgroundImage: `url(${bgImg})`
@@ -11,11 +13,12 @@ import RightPane from "./RightPane";
 
 const styles = {
   paper: {
-    padding: 60,
+    padding: 160,
     marginTop: 20,
     marginBottom: 20,
     marginRight: 20,
-    marginLeft: 20
+    marginLeft: 20,
+    background: "orange"
   }
 };
 
@@ -23,6 +26,20 @@ export default props => (
   <Grid container>
     <Grid item sm>
       <LeftPane style={styles} />
+    </Grid>
+    <Grid item sm>
+      <LeftPane style={styles} />
+    </Grid>
+    <Grid item sm>
+      <LeftPane style={styles} />
+    </Grid>
+
+    <Grid item sm>
+      <RightPane style={styles} />
+    </Grid>
+
+    <Grid item sm>
+      <RightPane style={styles} />
     </Grid>
     <Grid item sm>
       <RightPane style={styles} />

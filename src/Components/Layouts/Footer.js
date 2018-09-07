@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 import { Paper, Tabs } from "material-ui";
 import { Tab } from "material-ui/Tabs";
 
@@ -9,12 +8,30 @@ import { Tab } from "material-ui/Tabs";
 // import "./footer.css";
 // import { Button } from "react-bootstrap";
 
+const style = {
+  background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+  borderRadius: 5,
+  border: 2,
+  color: "white",
+  height: 38,
+  padding: "5px 30px",
+  margin: 6,
+  boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .30)"
+};
+
+const buttonsBg = {
+  background: "pink",
+  padding: 15,
+  margin: 20
+  // border: "2px solid blue"
+};
+
 export default Footer => (
-  <Paper>
+  <Paper style={buttonsBg}>
     <Tabs indicatorColor="primary" value={0} textColor="primary" centered>
-      <Tab label="Item One" />
-      <Tab label="Item Two" />
-      <Tab label="Item Three" />
+      <Tab style={style} label="Social Media column Tab" />
+      <Tab style={style} label="Item Two" />
+      <Tab style={style} label="Item Three" />
     </Tabs>
   </Paper>
 );
