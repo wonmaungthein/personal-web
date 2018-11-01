@@ -10,6 +10,7 @@
     "material-ui": "^1.0.0-beta.47",
     "mdbootstrap": "^4.5.4",
     "mdbreact": "^4.4.0",
+    "merge": "^1.2.1",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
